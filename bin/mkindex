@@ -16,7 +16,7 @@ done
 echo
 
 # list of legacy decks
-echo 'Casual/Legacy'
+echo 'Casual Legacy'
 echo '~~~~~~~~~~~~~'
 for list in leg/*.deck; do
 	echo "* link:${list%.deck}.html[${list##*/}]"
