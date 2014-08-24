@@ -1,0 +1,50 @@
+#!/bin/bash
+
+decklists=("$@")
+prog="${0##*/}"
+
+if (( ! "${#decklists}" )); then
+	echo "Usage: $prog <file>"
+	exit 1
+fi
+
+declare -i maxlen
+for decklist in "${decklists[@]}"; do
+	if (( ${#decklist} > maxlen )); then
+		maxlen=${#decklist}
+	fi
+done
+
+declare -i retval
+for decklist in "${decklists[@]}"; do
+
+	case "$decklist" in
+		edh/*) decksize=100 ;;
+		leg/*) decksize=60 ;;
+		*) decksize=60 ;;
+	esac
+
+	printf "%-${maxlen}s : " "$decklist"
+	awk '
+		/^[*+!-] [0-9]+x/ {
+			sub("x", "", $2)
+			cardcount += $2
+		}
+		/^[*+!-] \[\[/ {
+			cardcount += 1
+		}
+		/board/ { exit }
+		END {
+			if (cardcount != '"$decksize"') {
+				print "FAIL -", cardcount, "cards"
+				exit 1
+			} else {
+				print "OK -", cardcount, "cards"
+			}
+		}
+	' "$decklist"
+	retval+=$?
+done
+
+exit "$retval"
+

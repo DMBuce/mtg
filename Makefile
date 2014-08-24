@@ -43,6 +43,7 @@ index.txt: bin/mkindex index.template
 clean:
 	rm -f $(CLEAN)
 
-.PHONY: test
-test: edh/rakdos.html edh/rakdos.txt
+.PHONY: check
+check: bin/check-cardcount
+	./$< $(DECKLISTS)
 
