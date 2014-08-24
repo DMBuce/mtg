@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# stuff before decklists
+sed -n '1,/DECKLISTS HERE/ p' README.asciidoc
+
+# decklist header
+echo 'Deck Lists'
+echo '----------'
+
+# list of edh decks
+echo 'EDH'
+echo '~~~'
+for list in edh/*.deck; do
+	echo "* link:${list%.deck}.html[${list##*/}]"
+done
+echo
+
+# list of legacy decks
+echo 'Casual/Legacy'
+echo '~~~~~~~~~~~~~'
+for list in leg/*.deck; do
+	echo "* link:${list%.deck}.html[${list##*/}]"
+done
+echo
+
+# stuff after decklists
+sed -n '/DECKLISTS HERE/,$ p' README.asciidoc
+

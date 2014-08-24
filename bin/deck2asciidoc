@@ -1,0 +1,33 @@
+#!/bin/bash
+#
+# converts this:
+# 
+#   ; General
+#   * [[Omnath, Locus of Mana]]
+#   * 99x [[Forest]]
+# 
+# to this:
+# 
+#   General
+#   -------
+#   * http://gatherer.wizards.com/pages/card/details.aspx?name=Omnath,%20Locus%20of%20Mana[Omnath, Locus of Mana]
+#   * 99x http://gatherer.wizards.com/pages/card/details.aspx?name=Forest[Forest]
+# 
+
+decklist="$1"
+prog="${0##*/}"
+
+if [[ -z "$decklist" ]]; then
+	echo "Usage: $prog <file>"
+	exit 1
+fi
+
+mtg2html -f asciidoc "$decklist" | awk '
+	/^; / {
+		sub("; ", "*")
+		sub(/$/, "*\n")
+	}
+	/^[+!-] / { sub($1, "*") }
+	!/^; / { print }
+'
+
