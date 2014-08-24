@@ -1,0 +1,45 @@
+DMBuce's MTG Decks
+==================
+
+A collection of decks I've built for Magic: The Gathering.
+
+Deck Construction
+-----------------
+
+For EDH in particular, I tend to construct my decks by grouping cards into
+different "piles" or "categories". I find this helps me figure out which areas
+I'm weakest in and which areas need cuts. Having too many piles in a deck is
+usually a good indicator that I'm trying to do too many things and need to get
+rid of a few subthemes. Here's a brief description of the piles I usually
+include:
+
+**???**::
+	The first few piles in most of my decks are usually deck-specific and
+	relate to what the deck tries to do. Some examples: My Dr. Roon deck has a
+	Flicker pile, Rakdos has Pingers and Fatties piles, and a lot of
+	my decks have Aggression and Defense piles.
+
+**Card Advantage**::
+	This might be better termed as "Gas" and includes cards that get me other
+	cards from my library or graveyard into my hand or onto the battlefield.
+	Sometimes I split this up into Draw, Recursion, Tutors, Wheel Effects,
+	etc.
+
+**Removal**::
+	Cards that deal with problematic permanents. Usually counterspells get
+	lumped in here, sometimes they get their own pile.
+
+**Mana**::
+	Mana rocks, mana dorks, cards like [[Mana Echoes]], etc.
+
+**Land**::
+	Basics and Nonbasics. Sometimes I lump this in with the Mana pile.
+
+Deck Format
+-----------
+
+Decklists are in files with .deck extensions and formatted in MediaWiki
+markup. Cards are surrounded by double brackets so that I can easily convert
+to different markup formats using
+https://github.com/DMBuce/buceutils/blob/master/bin/mtg2html[mtg2html].
+
