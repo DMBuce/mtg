@@ -36,7 +36,7 @@ leg/%.txt: leg/%.deck bin/deck2asciidoc
 index.html: index.txt
 	asciidoc -a toc -a icons -a max-width=960px $<
 
-index.txt: bin/mkindex README.asciidoc
+index.txt: bin/mkindex index.template
 	./$< > $@
 
 .PHONY: clean
