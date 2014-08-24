@@ -1,3 +1,7 @@
+== Combat Deck ==
+A deck focused around extra combat steps and "each creature gains <keyword>"
+effects.
+
 ; Commander
 * [[Aurelia, the Warleader]]
 
@@ -81,10 +85,10 @@
 * [[Kusari-Gama]]
 
 ; Card Advantage Instants
-* [[Enlightened Tutor]] - Tutor
-* [[Oblation]] - Draw/Tuck
-* [[Argivian Find]] - Recursion
-* [[Tithe]] - Tutor
+* [[Enlightened Tutor]]
+* [[Oblation]]
+* [[Argivian Find]]
+* [[Tithe]]
 
 ; Aggression Instants
 * [[Master Warcraft]]
@@ -103,7 +107,7 @@
 * [[Path to Exile]]
 * [[Condemn]]
 
-== Utility ==
+== Other ==
 
 ; Rocks
 * [[Boros Cluestone]]

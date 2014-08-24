@@ -3,6 +3,8 @@ DMBuce's MTG Decks
 
 A collection of Magic: The Gathering decks.
 
+// DECKLISTS HERE
+
 Deck Construction
 -----------------
 
