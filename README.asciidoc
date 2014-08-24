@@ -1,7 +1,7 @@
 DMBuce's MTG Decks
 ==================
 
-A collection of decks I've built for Magic: The Gathering.
+A collection of Magic: The Gathering decks.
 
 Deck Construction
 -----------------
