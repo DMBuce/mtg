@@ -8,8 +8,8 @@ A collection of Magic: The Gathering decks.
 Deck Construction
 -----------------
 
-For EDH in particular, I tend to construct my decks by grouping cards into
-different "piles" or "categories". I find this helps me figure out which areas
+For EDH decks, I tend to construct my decks by grouping cards into
+different "piles" or categories. I find this helps me figure out which areas
 I'm weakest in and which areas need cuts. Having too many piles in a deck is
 usually a good indicator that I'm trying to do too many things and need to get
 rid of a few subthemes. Here's a brief description of the piles I usually
