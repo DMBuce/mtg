@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # stuff before decklists
-sed -n '1,/DECKLISTS HERE/ p' README.asciidoc
+mtg2html -f asciidoc README.asciidoc | sed -n '1,/DECKLISTS HERE/ p'
 
 # decklist header
 echo 'Deck Lists'
@@ -24,5 +24,5 @@ done
 echo
 
 # stuff after decklists
-sed -n '/DECKLISTS HERE/,$ p' README.asciidoc
+mtg2html -f asciidoc README.asciidoc | sed -n '/DECKLISTS HERE/,$ p'
 
