@@ -3,7 +3,7 @@ TXT_TARGETS   := $(DECKLISTS:.deck=.txt)
 HTML_TARGETS  := $(DECKLISTS:.deck=.html) index.html
 CLEAN         := $(TXT_TARGETS) $(HTML_TARGETS) index.html index.txt
 
-#ASCIIDOC_OPTS=-f doc/asciidoc.conf
+ASCIIDOC_OPTS=-f asciidoc.conf
 #	-a CONFDIR=$(CONFDIR) \
 #	-a EXECDIR=$(EXECDIR) \
 #	-a BINDIR=$(BINDIR) \
