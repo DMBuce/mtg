@@ -1,28 +1,43 @@
 #!/bin/bash
 
-# stuff before decklists
-mtg2html -f asciidoc index.template | sed -n '1,/DECKLISTS HERE/ p'
+outfile="$1"
+tempfile="$(mktemp "$outfile.XXXXXXXXXX")"
+trap 'rm -f "$tempfile"' EXIT
 
-# decklist header
-echo 'Deck Lists'
-echo '----------'
+makeindex() {
+	# stuff before decklists
+	mtg2html -f asciidoc index.template | sed -n '1,/DECKLISTS HERE/ p'
 
-# list of edh decks
-echo 'EDH'
-echo '~~~'
-for list in edh/*.deck; do
-	echo "* link:${list%.deck}.html[${list##*/}]"
-done
-echo
+	# decklist header
+	echo 'Deck Lists'
+	echo '----------'
 
-# list of legacy decks
-echo 'Casual Legacy'
-echo '~~~~~~~~~~~~~'
-for list in leg/*.deck; do
-	echo "* link:${list%.deck}.html[${list##*/}]"
-done
-echo
+	# list of edh decks
+	echo 'EDH'
+	echo '~~~'
+	for list in edh/*.deck; do
+		echo "* link:${list%.deck}.html[${list##*/}]"
+	done
+	echo
 
-# stuff after decklists
-mtg2html -f asciidoc index.template | sed -n '/DECKLISTS HERE/,$ p'
+	# list of legacy decks
+	echo 'Casual Legacy'
+	echo '~~~~~~~~~~~~~'
+	for list in leg/*.deck; do
+		echo "* link:${list%.deck}.html[${list##*/}]"
+	done
+	echo
+
+	# stuff after decklists
+	mtg2html -f asciidoc index.template | sed -n '/DECKLISTS HERE/,$ p'
+}
+
+if [[ -n "$outfile" ]]; then
+	makeindex > "$tempfile"
+	if [[ ! -f "$outfile" ]] || diff -q "$tempfile" "$outfile" &>/dev/null; then
+		mv "$tempfile" "$outfile"
+	fi
+else
+	makeindex
+fi
 

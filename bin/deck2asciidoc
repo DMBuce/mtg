@@ -15,6 +15,9 @@
 # 
 
 decklist="$1"
+outfile="$2"
+tempfile="$(mktemp "$outfile.XXXXXXXXXX")"
+trap 'rm -f "$tempfile"' EXIT
 prog="${0##*/}"
 
 if [[ -z "$decklist" ]]; then
@@ -22,12 +25,24 @@ if [[ -z "$decklist" ]]; then
 	exit 1
 fi
 
-mtg2html -f asciidoc "$decklist" | awk '
-	/^; / {
-		sub("; ", "*")
-		sub(/$/, "*\n")
-	}
-	/^[+!-] / { sub($1, "*") }
-	!/^; / { print }
-'
+deck2ascii() {
+	local decklist="$1"
+	mtg2html -f asciidoc "$decklist" | awk '
+		/^; / {
+			sub("; ", "*")
+			sub(/$/, "*\n")
+		}
+		/^[+!-] / { sub($1, "*") }
+		!/^; / { print }
+	'
+}
+
+if [[ -n "$outfile" ]]; then
+	deck2ascii "$decklist" > "$tempfile"
+	if [[ ! -f "$outfile" ]] || diff -q "$tempfile" "$outfile" &>/dev/null; then
+		mv "$tempfile" "$outfile"
+	fi
+else
+	deck2ascii "$decklist"
+fi
 

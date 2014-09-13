@@ -24,20 +24,20 @@ edh/%.html: edh/%.txt
 	asciidoc -a icons -a max-width=960px $<
 
 edh/%.txt: edh/%.deck
-	./bin/deck2asciidoc $< > $@
+	./bin/deck2asciidoc $< $@
 
 leg/%.html: leg/%.txt
 	#asciidoc ${ASCIIDOC_OPTS} -a icons -a max-width=960px $<
 	asciidoc -a icons -a max-width=960px $<
 
 leg/%.txt: leg/%.deck bin/deck2asciidoc
-	./bin/deck2asciidoc $< > $@
+	./bin/deck2asciidoc $< $@
 
 index.html: index.txt
 	asciidoc -a toc -a icons -a max-width=960px $<
 
 index.txt: bin/mkindex index.template
-	./$< > $@
+	./$< $@
 
 .PHONY: clean
 clean:
