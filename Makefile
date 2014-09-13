@@ -3,7 +3,7 @@ TXT_TARGETS   := $(DECKLISTS:.deck=.txt)
 HTML_TARGETS  := $(DECKLISTS:.deck=.html) index.html
 CLEAN         := $(TXT_TARGETS) $(HTML_TARGETS) index.html index.txt
 
-ASCIIDOC_OPTS=-f asciidoc.conf
+#ASCIIDOC_OPTS=-f asciidoc.conf
 #	-a CONFDIR=$(CONFDIR) \
 #	-a EXECDIR=$(EXECDIR) \
 #	-a BINDIR=$(BINDIR) \
@@ -11,7 +11,7 @@ ASCIIDOC_OPTS=-f asciidoc.conf
 #	-a BUGREPORT=$(BUGREPORT) \
 #	-a URL=$(URL) \
 #	-a VERSION=$(VERSION) \
-#	-a REPO='https://github.com/DMBuce/clicraft'
+#	-a REPO='https://github.com/DMBuce/mtg'
 
 .PHONY: all
 all: html
