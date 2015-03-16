@@ -26,6 +26,7 @@ effects.
 
 ; Vigilance
 * [[Angelic Skirmisher]]
+* [[Angelic Field Marshal]]
 
 ; Recursion
 * [[Sun Titan]]
@@ -78,7 +79,6 @@ effects.
 * [[Stoneforge Mystic]]
 
 ; Artifacts
-* [[True Conviction]]
 * [[Twilight Sphepherd]]
 * [[Sword of Feast and Famine]]
 * [[Sword of Vengeance]]
@@ -104,7 +104,7 @@ effects.
 * [[Orim's Thunder]]
 * [[Wing Shards]]
 * [[Path to Exile]]
-* [[Condemn]]
+* [[Chaos Warp]]
 
 == Other ==
 
@@ -118,14 +118,13 @@ effects.
 
 ; Land
 * [[Sunhome, Fortress of the Legion]]
-* [[Plains]]
 * [[Slayer's Stronghold]]
 * [[Temple of Triumph]]
 * [[Boros Guildgate]]
 * [[Boros Garrison]]
 * [[Wind-Scarred Crag]]
 * [[Sacred Foundry]]
-* 21x [[Plains]]
+* 22x [[Plains]]
 * 11x [[Mountain]]
 
 == Maybeboard ==
