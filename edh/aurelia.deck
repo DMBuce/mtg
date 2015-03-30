@@ -5,39 +5,42 @@ effects.
 ; Commander
 * [[Aurelia, the Warleader]]
 
-== Extra Combat Steps ==
-
-; Creatures
+; Extra Combat
 * [[Godo, Bandit Warlord]]
 * [[Hellkite Charger]]
-
-; Enchantments
 * [[Aggravated Assault]]
-
-; Instants
 * [[Savage Beating]]
 * [[Seize the Day]]
-
-; Sorceries
 * [[World at War]]
 * [[Waves of Aggression]]
 
-== Combat Interactions ==
+; Aggression
+* [[Master Warcraft]]
+* [[Akki Coalflinger]]
+* [[Archetype of Courage]]
+* [[Archetype of Aggression]]
+* [[Legion Loyalist]]
+* [[Concerted Effort]]
+* [[Goblin War Drums]]
+* [[True Conviction]]
 
-; Vigilance
-* [[Angelic Skirmisher]]
-* [[Angelic Field Marshal]]
+; Pumpers
+* [[Mirror Entity]]
+* [[Marton Stromgald]]
+* [[Mikaeus, the Lunarch]]
+* [[Soltari Champion]]
+* [[Hero of Oxid Ridge]]
+* [[Hero of Bladehold]]
 
-; Recursion
-* [[Sun Titan]]
-* [[Karmic Guide]]
-
-; Damage Prevention
+; Protection
 * [[Gisela, Blade of Goldnight]]
 * [[Iroas, God of Victory]]
-
-; Indestructible
 * [[Frontline Medic]]
+* [[Angelic Field Marshal]]
+* [[Angelic Skirmisher]]
+* [[Boros Charm]]
+* [[Wild Ricochet]]
+* [[Ghostway]]
 
 ; Combat Tricks
 * [[Blinding Angel]]
@@ -46,69 +49,34 @@ effects.
 * [[Galepowder Mage]]
 * [[Firemane Avenger]]
 
-; First Strike
-* [[Akki Coalflinger]]
-* [[Archetype of Courage]]
-
-; Trample
-* [[Archetype of Agression]]
-* [[Legion Loyalist]]
-
-; Token Generators
-* [[Hero of Bladehold]]
-
-; Pumpers
-* [[Mirror Entity]]
-* [[Marton Stromgald]]
-* [[Mikaeus, the Lunarch]]
-* [[Soltari Champion]]
-* [[Hero of Oxid Ridge]]
-
-; Mana
-* [[Herald of War]]
-
-; Enchantments
-* [[Concerted Effort]]
-* [[Goblin War Drums]]
-* [[True Conviction]]
-
-== Sunforger Package ==
-
-; Fetchers (also Godo)
-* [[Sunblast Angel]]
-* [[Stoneforge Mystic]]
-
-; Artifacts
-* [[Twilight Sphepherd]]
+; Equipment
 * [[Sword of Feast and Famine]]
 * [[Sword of Vengeance]]
 * [[Kusari-Gama]]
 * [[Mask of Memory]]
 
-; Card Advantage Instants
+; Card Advantage
 * [[Enlightened Tutor]]
+* [[Stoneforge Mystic]]
 * [[Oblation]]
 * [[Tithe]]
 
-; Aggression Instants
-* [[Master Warcraft]]
+; Recursion
+* [[Sun Titan]]
+* [[Karmic Guide]]
+* [[Twilight Shepherd]]
 
-; Protection Instants
-* [[Boros Charm]]
-* [[Wild Ricochet]]
-* [[Ghostway]]
-
-; Removal Instants
+; Removal
 * [[Into the Core]]
 * [[Return to Dust]]
 * [[Orim's Thunder]]
 * [[Wing Shards]]
 * [[Path to Exile]]
 * [[Chaos Warp]]
+* [[Sunblast Angel]]
 
-== Other ==
-
-; Rocks
+; Mana
+* [[Herald of War]]
 * [[Boros Signet]]
 * [[Boros Keyrune]]
 * [[Commander's Sphere]]
@@ -127,7 +95,7 @@ effects.
 * 22x [[Plains]]
 * 11x [[Mountain]]
 
-== Maybeboard ==
+; Maybeboard
 
 * [[Argivian Find]]
 * [[Archangel of Thune]]

@@ -31,15 +31,16 @@ deck2ascii() {
 		BEGIN {
 			category = "Uncategorized"
 		}
-		/board$/ || /[Cc]uts?/ { exit }
+		/board$/ || /[Cc]uts?$/ { exit }
 		/^; / {
 			sub("; ", "")
+			sub(" ", "")
 			category = $0
 			next
 		}
 		/^[+!-*] / { sub(/^[+!-*] /, "") }
 		/\[\[/    { sub(/\[\[/, "") }
-		/\]\]$/    { sub(/\]\]$/, "") }
+		/\]\]/    { sub(/\]\].*/, "") }
 		!/^; / { print $0, "#" category }
 	'
 }
