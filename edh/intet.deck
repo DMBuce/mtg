@@ -35,9 +35,7 @@
 
 ; Counterspells
 * [[Discombobulate]]
-* [[Plasm Capture]]
 * [[Dissolve]]
-* [[Dismiss]]
 * [[Rewind]]
 
 ; Top Manipulation
@@ -45,14 +43,14 @@
 * [[Magus of the Future]]
 * [[Melek, Izzet Paragon]]
 * [[Lantern of Insight]]
-* [[Crystal Ball]]
 * [[Mystic Speculation]]
-* [[Preordain]]
 * [[Ponder]]
 * [[Foresee]]
+* [[Orcish Librarian]]
 
 ; Recursion
 * [[Praetor's Counsel]]
+* [[Past in Flames]]
 * [[Noxious Revival]]
 * [[Reclaim]]
 
@@ -61,8 +59,9 @@
 * [[Mind's Desire]]
 
 ; Card Advantage
+* [[Sarkhan Unbroken]]
+* [[Urban Evolution]]
 * [[Guided Passage]]
-* [[Faithless Looting]]
 * [[Recurring Insight]]
 * [[Fact or Fiction]]
 
@@ -73,17 +72,18 @@
 * [[Chain Reaction]]
 * [[Blasphemous Act]]
 * [[Cyclonic Rift]]
+* [[Capsize]]
 
 ; Mana
-* [[Druidic Satchel]]
 * [[Prophet of Kruphix]]
 * [[Oracle of Mul Daya]]
 * [[Peregrination]]
 * [[Boundless Realms]]
 * [[Tempt with Discovery]]
-* [[Harrow]]
-* [[Sprouting Vines]]
-* [[Commander's Sphere]]
+* [[Explosive Vegetation]]
+* [[Cultivate]]
+* [[Kodama's Reach]]
+* [[Turnabout]]
 
 ; Land
 * [[Rootbound Crag]]
@@ -100,12 +100,17 @@
 * 3x [[Mountain]]
 
 ; Maybeboard
+* [[Plasm Capture]]
+* [[Dismiss]]
+* [[Crystal Ball]]
+* [[Preordain]]
+* [[Faithless Looting]]
+* [[Druidic Satchel]]
+* [[Harrow]]
+* [[Sprouting Vines]]
+* [[Commander's Sphere]]
 * [[Arcane Melee]]
 * [[Courser of Kruphix]]
-* [[Explosive Vegetation]]
-* [[Cultivate]]
-* [[Kodama's Reach]]
-* [[Turnabout]]
 * [[Mana Geyser]]
 * [[Balefire Dragon]]
 * [[Hull Breach]]
