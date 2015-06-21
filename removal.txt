@@ -1,0 +1,172 @@
+Acidic Slime
+Aetherize
+Aftershock
+Akroma's Vengeance
+All Is Dust
+Amulet of Unmaking
+Angel of Serenity
+Angel of the Dire Hour
+Annihilate
+Argentum Armor
+Aven Cloudchaser
+Banishing Stroke
+Basilisk Collar
+Beast Within
+Black Sun's Zenith
+Blasphemous Act
+Blood Moon
+Brittle Effigy
+Brutalizer Exarch
+Burn at the Stake
+Capsize
+Captivating Vampire
+Chain Reaction
+Chaos Warp
+Comet Storm
+Contagion Clasp
+Crackling Doom
+Creeping Corrosion
+Crib Swap
+Crux of Fate
+Cyclonic Rift
+Cytoplast Manipulator
+Dark Impostor
+Darksteel Mutation
+Day of Judgment
+Decree of Pain
+Deny Reality
+Desert Twister
+Dismember
+Dispatch
+Dregs of Sorrow
+Duplicant
+Earthquake
+Endemic Plague
+End Hostilities
+Equilibrium
+Evacuation
+Evil Twin
+Exclusion Ritual
+Executioner's Capsule
+Extinction
+Faith's Fetters
+Fell the Mighty
+Flameblast Dragon
+Gatekeeper of Malakir
+Goblin Assassin
+Goblin Sharpshooter
+Golgari Charm
+Gruul Ragebeast
+Harsh Mercy
+Helm of Possession
+Into the Core
+Ixidor's Will
+Ixidron
+Kalitas, Bloodchief of Ghet
+Karn Liberated
+Keeper of the Nine Gales
+Kirtar's Wrath
+Krosan Grip
+Lieutenant Kirtar
+Life's Finale
+Mageta the Lion
+Major Teroh
+Manic Vandal
+March of Souls
+Martial Coup
+Mass Calcify
+Merciless Eviction
+Mistblade Shinobi
+Mogg Infestation
+Molder Slug
+Mutilate
+Mystic Snake
+Necrotic Sliver
+Nevermore
+Nevinyrral's Disk
+Nihil Spellbomb
+Not of This World
+Oblation
+Oblivion Ring
+Orim's Thunder
+Path to Exile
+Phyrexian Ingester
+Phyrexian Rebirth
+Plague Boiler
+Planar Cleansing
+Planar Collapse
+Pongify
+Predator, Flagship
+Profane Command
+Rain of Thorns
+Rakdos Charm
+Ratchet Bomb
+Reclamation Sage
+Relic Crush
+Repentant Vampire
+Retribution of the Ancients
+Return to Dust
+Rishadan Brigand
+Rout
+Ruination
+Savage Twister
+Serendib Sorcerer
+Shattering Spree
+Shauku, Endbringer
+Shriekmaw
+Simic Basilisk
+Skirk Fire Marshal
+Solar Tide
+Song of the Dryads
+Soul Seizer
+Spawn of Thraxes
+Spine of Ish Sah
+Spin into Myth
+Spring Cleaning
+Steel Hellkite
+Stingscourger
+Street Spasm
+Sultai Charm
+Sunblast Angel
+Suncrusher
+Sundial of the Infinite
+Sunscour
+Supreme Verdict
+Surgespanner
+Sword of Kaldra
+Swords to Plowshares
+Sylvok Replica
+Tempest of Light
+Temporal Adept
+Tendrils of Corruption
+Terastodon
+Terminate
+Thornbite Staff
+Throat Slitter
+Thundercloud Shaman
+Tornado
+Tragic Slip
+Triskelion
+Tuktuk Scrapper
+Ulvenwald Tracker
+Vampire Hexmage
+Vandalblast
+Viashino Heretic
+Victimize
+Voidmage Husher
+Voidmage Prodigy
+Void Stalker
+Vow of Duty
+Vow of Flight
+Vow of Lightning
+Voyager Staff
+Wave of Vitriol
+Whelming Wave
+Whirlwind
+Wild Ricochet
+Winds of Rath
+Wing Shards
+Woodfall Primus
+World Queller
+Worldslayer
+Wrath of God
