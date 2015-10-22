@@ -34,7 +34,7 @@ deck2ascii() {
 		/board$/ || /[Cc]uts?$/ { exit }
 		/^; / {
 			sub("; ", "")
-			sub(" ", "")
+			gsub(" ", "")
 			category = $0
 			next
 		}
