@@ -7,7 +7,7 @@ effects.
 
 ; Extra Combat
 * [[Godo, Bandit Warlord]]
-* [[Hellkite Charger]]
+* [[Scourge of the Throne]]
 * [[Aggravated Assault]]
 * [[Savage Beating]]
 * [[Seize the Day]]
@@ -16,13 +16,14 @@ effects.
 
 ; Aggression
 * [[Master Warcraft]]
-* [[Akki Coalflinger]]
+* [[Legion Loyalist]]
 * [[Archetype of Courage]]
 * [[Archetype of Aggression]]
 * [[Concerted Effort]]
-* [[Goblin War Drums]]
 * [[Launch the Fleet]]
 * [[Assemble the Legion]]
+* [[Sword of Vengeance]]
+* [[Kusari-Gama]]
 * [[Zada, Hedron Grinder]]
 
 ; Pumpers
@@ -49,16 +50,10 @@ effects.
 * [[Galepowder Mage]]
 * [[Firemane Avenger]]
 
-; Equipment
-* [[Sword of Feast and Famine]]
-* [[Sword of Vengeance]]
-* [[Kusari-Gama]]
-* [[Mask of Memory]]
-
 ; Card Advantage
+* [[Sword of Feast and Famine]]
+* [[Mask of Memory]]
 * [[Stoneforge Mystic]]
-* [[Oblation]]
-* [[Tithe]]
 
 ; Recursion
 * [[Sun Titan]]
@@ -73,34 +68,41 @@ effects.
 * [[Path to Exile]]
 * [[Chaos Warp]]
 * [[Sunblast Angel]]
+* [[Oblation]]
 
 ; Mana
-* [[Knight of the White Orchid]]
+* [[Sword of the Animist]]
+* [[Trading Post]]
 * [[Herald of War]]
 * [[Boros Signet]]
+* [[Boros Cluestone]]
 * [[Boros Keyrune]]
 * [[Commander's Sphere]]
-* [[Burnished Hart]]
+* [[Solemn Simulacrum]]
 * [[Hedron Archive]]
-* [[Darksteel Ingot]]
+* [[Mind Stone]]
 
 ; Land
 * [[Sunhome, Fortress of the Legion]]
-* [[Slayer's Stronghold]]
+* [[Slayers' Stronghold]]
 * [[Temple of Triumph]]
-* [[Boros Guildgate]]
+* [[Myriad Landscape]]
 * [[Boros Garrison]]
 * [[Wind-Scarred Crag]]
 * [[Sacred Foundry]]
-* 22x [[Plains]]
-* 11x [[Mountain]]
+* [[Evolving Wilds]]
+* [[Terramorphic Expanse]]
+* 21x [[Plains]]
+* 10x [[Mountain]]
 
 ; Maybeboard
+* [[Outpost Siege]] (cut Karmic Guide)
+* [[Rogue's Gloves]] (cut Kusari-Gama)
+* [[Windbrisk Heights]] (cut Plains)
+* [[Angelic Renewal]] (cut Sword of Vengeance)
+
 * [[Into the Core]]
-* [[Legion Loyalist]]
-* [[Argivian Find]]
 * [[Archangel of Thune]]
 * [[Avacyn, Angel of Hope]]
 * [[Sword of Fire and Ice]]
-* [[Rogue's Gloves]]
 
