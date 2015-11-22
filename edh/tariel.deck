@@ -7,19 +7,25 @@ http://www.mtgsalvation.com/forums/the-game/commander-edh/multiplayer-commander-
 ; Goodstuff
 * [[Thornbite Staff]]
 * [[Sword of the Paruns]]
-* [[Swiftfoot Boots]]
+* [[Illusionist's Bracers]]
+* [[Thousand-Year Elixir]]
 * [[Anger]]
 * [[Fervor]]
 * [[Hammer of Purphoros]]
 * [[Ogre Battledriver]]
-* [[Illusionist's Bracers]]
-* [[Thousand-Year Elixir]]
+* [[Swiftfoot Boots]]
+* [[Lightning Greaves]]
+* [[Glory]]
+* [[Grindclock]]
 
 ; Grave Hate
+* [[Nezumi Graverobber]]
 * [[Withered Wretch]]
-* 3x [[Rakdos Charm]]
+* [[Rakdos Charm]]
 * [[Junktroller]]
 * [[Relic of Progenitus]]
+* [[Necromancer's Covenant]]
+* [[Misinformation]]
 
 ; Discard
 * [[Nightmare Void]]
@@ -27,26 +33,20 @@ http://www.mtgsalvation.com/forums/the-game/commander-edh/multiplayer-commander-
 
 ; Removal
 * [[Blasphemous Act]]
+* [[Aether Snap]]
+* [[Deadly Tempest]]
+* [[Phyrexian Rebirth]]
+* [[Kirtar's Wrath]]
+* [[Angel of the Dire Hour]]
 * [[Life's Finale]]
-* [[Quarantine Field]]
 * [[Merciless Eviction]]
 * [[Wrath of God]]
-
-; Recursion
-* [[Ashen Powder]]
-* [[Nezumi Graverobber]]
-* [[Coffin Queen]]
-* [[Sepulchral Primordial]]
-* [[Animate Dead]]
-* [[Grim Return]]
-* [[Puppeteer Clique]]
-* [[Debtors' Knell]]
-* [[Grave Betrayal]]
-* [[Rise of the Dark Realms]]
-* [[Beacon of Unrest]]
-* [[Adarkar Valkyrie]]
-* [[Scion of Darkness]]
-* [[Necromancy]]
+* [[Path to Exile]]
+* [[Chained to the Rocks]]
+* [[Dismember]]
+* [[Crackling Doom]]
+* [[Terminate]]
+* [[Enslave]]
 
 ; Tutor
 * [[Grinning Totem]]
@@ -54,23 +54,48 @@ http://www.mtgsalvation.com/forums/the-game/commander-edh/multiplayer-commander-
 * [[Demonic Collusion]]
 * [[Sidisi, Undead Vizier]]
 
+; Recursion
+* [[Scion of Darkness]]
+* [[Adarkar Valkyrie]]
+* [[Debtor's Knell]]
+* [[Puppeteer Clique]]
+* [[Sepulchral Primordial]]
+* [[Coffin Queen]]
+* [[Animate Dead]]
+
+; Draw
+* [[Underworld Connections]]
+* [[Corpse Augur]]
+
 ; Mana
+* [[Mana Flare]]
 * [[Expedition Map]]
 * [[Blanket of Night]]
-* [[Crypt Ghast]]
-* [[Nirkana Revenant]]
-* [[Magus of the Coffers]]
 * [[Rakdos Signet]]
 * [[Boros Signet]]
 * [[Orzhov Signet]]
+* [[Sol Ring]]
+* [[Vessel of Endless Rest]]
+* [[Nirkana Revenant]]
+* [[Magus of the Coffers]]
 
 ; Land
-* [[Bojuka Bog]]
 * [[Urborg, Tomb of Yawgmoth]]
 * [[Cabal Coffers]]
+* [[Bojuka Bog]]
 * [[Haunted Fengraf]]
+* [[Nomad Outpost]]
+* [[Dragonskull Summit]]
+* [[Vivid Crag]]
+* [[Vivid Meadow]]
+* [[Vivid Marsh]]
+* 17x [[Mountain]]
+* 7x [[Plains]]
+* 7x [[Swamp]]
 
 ; Maybeboard
+* [[Crypt Ghast]]
+* [[Quarantine Field]]
 * [[Phyrexian Furnace]]
 * [[Shieldmage Advocate]]
 * [[Reito Lantern]]
