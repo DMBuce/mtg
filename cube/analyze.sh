@@ -9,6 +9,50 @@ msg() {
 	printf "$message\n" "$@"
 }
 
+warn() {
+	msg "$@" >&2
+}
+
+err() {
+	msg "$@" >&2
+}
+
+cd "$(dirname "$0")"
+mkdir -p "$datadir"
+
+warn 'Searching for multiplayer cubes on cubetutor'
+[[ -f "$inputfile" ]] || cubesearch.pl > "$inputfile"
+
+warn 'Downloading cube lists'
+while read id user name; do
+	url="http://www.cubetutor.com/viewcube/$id"
+	name="${name//\//_}"
+	cubefile="$datadir/${user}_${name// /_}.dat"
+	[[ ! -f "$cubefile" ]] && \
+		./cubeprint.sh "$url" > "$cubefile"
+done < "$inputfile"
+
+warn 'Excluding cubes with fewer than 270 cards'
+cubes=( $(wc -l data/* | awk '$1 >= 270 && $2 != "total" {print $2}') )
+
+warn 'Creating aggregate list'
+./mtgaggregate "${cubes[@]}" > avgcube.out
+
+
+
+
+# old script starts below
+exit
+
+inputfile="./avgcube.in"
+datadir="./data"
+
+msg() {
+	local message="$1"
+	shift
+	printf "$message\n" "$@"
+}
+
 err() {
 	msg "$@" >&2
 }
