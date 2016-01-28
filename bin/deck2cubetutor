@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+
+use strict;
+
+while (<>) {
+	last if $_ =~ /;.*board$/;
+	while ($_ =~ /((\d+)x )?\[\[([^]]*)\]\]/g) {
+		my ($max, $card) = ($2, $3);
+		$max = 1 if ($max == "");
+		for (my $i = 0; $i < $max; $i++) {
+			print "$card\n";
+		}
+	}
+}
+

@@ -1,0 +1,98 @@
+#!/usr/bin/perl
+
+use strict;
+
+use URI::Escape;
+use LWP::UserAgent;
+
+use utf8;
+use open ':std', ':encoding(UTF-8)';
+
+my @searchterms;
+
+# build search query
+foreach my $arg (@ARGV) {
+	if ($arg =~ /:/) {
+		my @searchterm = split(/:/, $arg, 2);
+		$searchterm[1] = "\"$searchterm[1]\"";
+		$arg = join(':', @searchterm);
+	}
+	push @searchterms, $arg;
+}
+
+#if (! -t STDIN) {
+#	push @searchterms, "(";
+#	while (<STDIN>) {
+#		push @searchterms, "\"$_\"";
+#		push @searchterms, "or";
+#	}
+#	pop @searchterms;
+#	push @searchterms, ")";
+#}
+
+my $searchstring = uri_escape( join(' ', @searchterms) );
+my $url = "http://magiccards.info/query?q=$searchstring&v=olist&s=cname";
+print STDERR "$url\n";
+
+my $ua = LWP::UserAgent->new;
+
+my $request;
+my $response;
+my $content;
+my $error_string = "";
+while (1) {
+	#print STDERR "$url\n";
+	$request = HTTP::Request->new(GET => $url);
+	$response = $ua->request($request);
+	#$url = "";
+	
+	die "Error ".$response->code if !$response->is_success;
+	
+	$content = $response->decoded_content;
+	
+	my $is_card = 0;
+	my $is_last_page = 1;
+	foreach my $line (split(/\R/, $content)) {
+		# warn when querying too many cards
+		if ($line =~ /Your? query returned more than (\d+) cards\./) {
+			$error_string = "Query results over the limit ($1). Some cards omitted.\n";
+		}
+	
+		# toggle flag if we're in the table that has cards in it
+		if ($line =~ /Card name/) {
+			$is_card = 1;
+		} elsif ($line =~ /<\/table>/) {
+			$is_card = 0;
+		}
+	
+		# print cards
+		if ($is_card && $line =~ /<a[^>]*>([^<]*)<\/a>/) {
+			my $card = "$1";
+			print "$card\n";
+		}
+	
+		# grab url for next page of results
+		if ($line =~ /<a href="([^"]*)">next \d* cards<\/a>/) {
+			$url = "http://magiccards.info$1";
+			$is_last_page = 0;
+		}
+	}
+
+	# break loop when we reach last search page
+	if ($is_last_page) {
+		last;
+	}
+
+}
+
+if ($error_string) {
+	print STDERR "$error_string";
+}
+
+#$content =~ s/\R/ /g;
+#$content =~ s/.*Card name//;
+#$content =~ s/<\/table>.*//;
+#while ($content =~ /<a[^>]*>([^<]*)<\/a>/g) {
+#	print "$1\n";
+#}
+

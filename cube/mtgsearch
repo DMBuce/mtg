@@ -1,0 +1,13 @@
+#!/bin/bash
+
+magiccards=./magiccards
+
+if [[ ! -t 0 ]]; then
+	filterlist="$(sed 's/\[\[/\n/g; s/\]\]/\n/g' | sed 's/^/^/; s/$/$/')"
+else
+	filterlist=.
+fi
+
+$magiccards "$@" | grep -f <(echo "$filterlist")
+
+
