@@ -7,12 +7,10 @@ effects.
 
 ; Extra Combat
 * [[Godo, Bandit Warlord]]
-* [[Scourge of the Throne]]
 * [[Aggravated Assault]]
 * [[Savage Beating]]
 * [[Seize the Day]]
 * [[World at War]]
-* [[Waves of Aggression]]
 
 ; Aggression
 * [[Master Warcraft]]
@@ -36,7 +34,6 @@ effects.
 * [[Gisela, Blade of Goldnight]]
 * [[Iroas, God of Victory]]
 * [[Frontline Medic]]
-* [[Angelic Field Marshal]]
 * [[Angelic Skirmisher]]
 * [[Boros Charm]]
 * [[Dawn Charm]]
@@ -44,7 +41,6 @@ effects.
 ; Combat Tricks
 * [[Blinding Angel]]
 * [[Odric, Master Tactician]]
-* [[Boros Battleshaper]]
 * [[Galepowder Mage]]
 * [[Firemane Avenger]]
 
@@ -53,6 +49,7 @@ effects.
 * [[Stoneforge Mystic]]
 * [[Mask of Memory]]
 * [[Rogue's Gloves]]
+* [[Endbringer]]
 
 ; Recursion
 * [[Sun Titan]]
@@ -60,6 +57,8 @@ effects.
 * [[Twilight Shepherd]]
 
 ; Removal
+* [[Martial Coup]]
+* [[Wrath of God]]
 * [[Fury Charm]]
 * [[Return to Dust]]
 * [[Orim's Thunder]]
@@ -67,13 +66,13 @@ effects.
 * [[Path to Exile]]
 * [[Chaos Warp]]
 * [[Sunblast Angel]]
-* [[Oblation]]
+* [[Chained to the Rocks]]
 
 ; Mana
 * [[Sword of Feast and Famine]]
 * [[Sword of the Animist]]
-* [[Trading Post]]
-* [[Herald of War]]
+* [[Sol Ring]]
+* [[Pilgrim's Eye]]
 * [[Boros Signet]]
 * [[Boros Cluestone]]
 * [[Boros Keyrune]]
@@ -81,6 +80,7 @@ effects.
 * [[Solemn Simulacrum]]
 * [[Hedron Archive]]
 * [[Mind Stone]]
+* [[Star Compass]]
 
 ; Land
 * [[Sunhome, Fortress of the Legion]]
@@ -93,7 +93,10 @@ effects.
 * [[Evolving Wilds]]
 * [[Terramorphic Expanse]]
 * [[Windbrisk Heights]]
-* 20x [[Plains]]
+* [[Naya Panorama]]
+* [[Wooded Foothills]]
+* 1x [[Wastes]]
+* 17x [[Plains]]
 * 10x [[Mountain]]
 
 ; Maybeboard
@@ -101,4 +104,5 @@ effects.
 * [[Archangel of Thune]]
 * [[Avacyn, Angel of Hope]]
 * [[Sword of Fire and Ice]]
+* [[Rugged Prairie]]
 
