@@ -1,0 +1,109 @@
+Custom MTG DND format
+
+Goal: Create a P&P RPG using MTG cards.
+
+Rules should be simple and easy to understand.
+
+=== Name ===
+
+Magic: the Subgame
+
+This game needs a name. Should be evocative of both Magic (or trading card
+games) and DnD (or roleplaying games).
+
+Some names that are already taken:
+MTG RPG -- https://1d4chan.org/wiki/Magic:_the_Gathering_RPG
+M:tG - Planeswalkers -- http://mtg-roleplay.proboards.com/
+MtG Heroes -- https://www.reddit.com/r/magicTCG/comments/3jdx5b/mtg_heroes_my_attempt_at_a_tabletop_rp_format/
+
+; Column MTG
+Magic
+The Gathering
+MTG
+Trading Card
+Cardboard
+
+; Column DnD
+Dungeons
+Dragons
+RPG
+Roleplay
+Dice
+
+=== Design ===
+
+There's lots of concepts from various MTG formats that can be useful.
+
+Color identity from EDH/commander (or color profile from cube)
+
+Perfect fixing from battlebox or whatever it's called
+
+Small hand size from that three-card combo format
+
+Might want to remove mill as a win condition
+
+Flavor judging from flavor magic
+
+3v1 a la archenemy
+
+=== Rules ===
+
+; Starting stats
+Life: 5
+Hand size: 3
+Minimum deck size: 60 (singleton)
+Color profile: none (colorless)
+Drafted cards: 70?
+Lands: 1 Waste
+
+Speed (red, low)
+Power (green, high)
+Toughness (white, high)
+Cleverness (blue, low)
+Willpower (black, match)
+
+=== Traits ===
+
+Mage: You are a mage. Your maximum/starting life total is 5. Your
+maximum/starting hand size is 3. Your minimum deck size is 60. Your color
+profile is colorless. Your speed, power, toughness, cleverness, and willpower
+are all 1. You may play lands from the command zone. Put one of each basic
+land and a cycle of taplands into your card pool. Put a waste from your card
+pool into the command zone.
+
+Personality Growth: Add a color to your color profile. Put a basic land of
+that color profile into the command zone. You may take this trait up to 3
+times, choosing a different color each time.
+
+Improved Manabonds: Put a nonbasic land from your card pool into the command
+zone. You may take this trait up to 5 times.
+
+Improved Mental Capacity: Increase your hand size by one. You may take this
+trait up to 3 times.
+
+Sharpened Thoughts: Decrease your minimum deck size by 5. You may take this
+trait up to 7 times.
+
+Spell Focus: Choose a card in your card pool. If that card is in the cube,
+you may draft it. You may include one additional copy of that card in your
+deck. For any given card, you may take this trait up to 2 times.
+
+Spell Mastery: You may include instants and sorceries in your deck.
+
+Permanence Mastery: Choose a permanent type. You may include cards of that
+type in your deck. You may take this trait any number of times. (The permanent
+types are artifact, creature, enchantment, land, and planeswalker.)
+
+Creature Mastery: Choose a creature class. You may include creature types from that class in your deck. You may take this trait any number of times.
+
+Fortitude: Add 5 life to your starting life total. You may take this trait up
+to 7 times
+
+Num starting traits: 10
+Max traits: 30 + num creature classes
+
+=== Cube ===
+Needs a main section with mediocre-to-playable commons/uncommons, plus a
+sideboard of splashy uncommons/rares/mythics that occasionally get added to
+the pool.
+
