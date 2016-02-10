@@ -1,109 +1,182 @@
-Custom MTG DND format
-
-Goal: Create a P&P RPG using MTG cards.
-
-Rules should be simple and easy to understand.
-
-=== Name ===
 
 Magic: the Subgame
 
-This game needs a name. Should be evocative of both Magic (or trading card
-games) and DnD (or roleplaying games).
+Goal: Create a tabletop RPG using MTG cards. Rules should be simple and easy
+to understand.
 
-Some names that are already taken:
+Similar games:
 MTG RPG -- https://1d4chan.org/wiki/Magic:_the_Gathering_RPG
 M:tG - Planeswalkers -- http://mtg-roleplay.proboards.com/
 MtG Heroes -- https://www.reddit.com/r/magicTCG/comments/3jdx5b/mtg_heroes_my_attempt_at_a_tabletop_rp_format/
-
-; Column MTG
-Magic
-The Gathering
-MTG
-Trading Card
-Cardboard
-
-; Column DnD
-Dungeons
-Dragons
-RPG
-Roleplay
-Dice
-
-=== Design ===
-
-There's lots of concepts from various MTG formats that can be useful.
-
-Color identity from EDH/commander (or color profile from cube)
-
-Perfect fixing from battlebox or whatever it's called
-
-Small hand size from that three-card combo format
-
-Might want to remove mill as a win condition
-
-Flavor judging from flavor magic
-
-3v1 a la archenemy
+There used to be a PDF for a fan-made MTG RPG floating around that I can't
+seem to find now
 
 === Rules ===
 
-; Starting stats
+; Cube
+The cube is a pool of cards provided by the GM that represent the spells that
+mages and planeswalkers in the multiverse are capable of learning. In order
+for players to gain access to new spells, the first thing they must do is
+draft them from the cube.
+
+; Draft
+To "draft" a card, put it from the cube into your card pool.
+
+; Card Pool
+A player's card pool represents the spells he or she is capable of casting, as
+well their bonds with different realms throughout the multiverse.
+It consists of the cards he or she drafted, one of each basic
+land (including Wastes), a cycle of Taplands, and cards acquired while
+exploring the multiverse. Not all cards in a player's card pool may be
+included in his or her deck; see "Deck Construction", below.
+
+; Taplands
+Each player starts the game with all five lands from one of the following
+cycle of taplands in their card pool:
+
+* White-bordered taplands from 8th Edition
+* Black-bordered taplands from Invasion
+* Snow taplands from Coldsnap
+* Allied guildgates from Return to Ravnica / Gatecrash
+* Enemy guildgates from Return to Ravnica / Gatecrash
+* Taplands from Oath of the Gatewatch
+
+The lands that a player starts the game with in this way gain the "Tapland"
+subtype.
+
+; Command Zone
+A player can play lands they own from the command zone. If a player would
+search his or her library for a land, he or she searches his or her library
+and command zone for that land instead.
+
+Each players starts the game with one Wastes in the command zone. Some skills
+let you put lands from your card pool into the command zone.
+
+; Deck Construction
+In order for a player to be able to include a card in his or her deck, it must
+share a color with that player's color profile, and the player must have the
+Mastery skill corresponding to each of that card's types (not including
+subtypes and supertypes).
+
+=== Characters ===
+
+You are a planeswalker, a powerful mage capable of traveling to other planes
+in the multiverse. You have a number of statistics, or "stats", that define
+your basic physical attributes and spellcasting abilities, as summarized and
+described below.
+
+; Starting Stats*
+
+Color Profile: {C}
+Mastery: none
 Life: 5
-Hand size: 3
-Minimum deck size: 60 (singleton)
-Color profile: none (colorless)
-Drafted cards: 70?
-Lands: 1 Waste
+Hand: 3
+Deck: 60
 
-Speed (red, low)
-Power (green, high)
-Toughness (white, high)
-Cleverness (blue, low)
-Willpower (black, match)
+Speed (low): 1
+Power (high): 1
+Toughness (high): 1
+Cleverness (low): 1
+Willpower (match): 1
 
-=== Traits ===
+*Note: In addition to the stats on this table, players also start with 10
+lands in their card pool (5 basics and 5 taplands), and 10 skills of their
+choice
 
-Mage: You are a mage. Your maximum/starting life total is 5. Your
-maximum/starting hand size is 3. Your minimum deck size is 60. Your color
-profile is colorless. Your speed, power, toughness, cleverness, and willpower
-are all 1. You may play lands from the command zone. Put one of each basic
-land and a cycle of taplands into your card pool. Put a waste from your card
-pool into the command zone.
+; Color Profile (starting value: {C})
+
+Your color profile represents the colors of mana your character is most
+aligned with. You add colors to your color profile by taking the Personality
+Growth skill.
+
+In order for you to include a card in your deck, that card must share a color
+with your color profile and you must have mastery over all its card types.
+
+; Mastery (starting value: none)
+
+Your mastery represents the types of magical effects you are able to summon.
+You gain mastery for different card types by taking the Spell Mastery and
+Permanence Mastery skills.
+
+In order for you to include a card in your deck, that card must share a color
+with your color profile and you must have mastery over all its card types.
+
+; Life
+
+Your Life represents how much damage you can take, and determines your
+starting life total. You increase your Life by taking the Improved Toughness
+skill.
+
+; Hand
+
+Your Hand represents your capacity to recall your prepared spells, and
+determines your starting hand size and maximum hand size. You increase your
+Hand by taking the Improved Cleverness skill.
+
+; Deck
+
+You Deck represents your ability to prepare spells, and determines your
+minimum deck size. You increase your Deck by taking the Improved Willpower
+skill.
+
+Card Pool:
+5 Basic Lands
+5 Taplands
+drafted cards
+
+Skills: 10 of your choice
+
+=== Skills ===
 
 Personality Growth: Add a color to your color profile. Put a basic land of
-that color profile into the command zone. You may take this trait up to 3
-times, choosing a different color each time.
+that color from your card pool into the command zone. You may take this skill
+up to 2 times, choosing a different color each time.
 
-Improved Manabonds: Put a nonbasic land from your card pool into the command
-zone. You may take this trait up to 5 times.
+(You may include cards in your deck that share a color with your color
+profile if you have Mastery for their cards types.)
 
-Improved Mental Capacity: Increase your hand size by one. You may take this
-trait up to 3 times.
+Improved Manabonds: Put a Tapland from your card pool into the command zone.
+You may take this skill up to 5 times.
 
-Sharpened Thoughts: Decrease your minimum deck size by 5. You may take this
-trait up to 7 times.
+Improved Speed: Add 1 to your Speed. Draft a red card. You may exchange a card
+from your card pool with a card from the cube.
 
-Spell Focus: Choose a card in your card pool. If that card is in the cube,
-you may draft it. You may include one additional copy of that card in your
-deck. For any given card, you may take this trait up to 2 times.
+Improved Power: Add 1 to your Power. If your Power is less than 4, you may put
+a basic land from your card pool into the command zone. If you don't, draft a
+green card.
 
-Spell Mastery: You may include instants and sorceries in your deck.
+Improved Toughness: Add 1 to your Toughness. If your Life is less than 40,
+you may increase it by 5. If you don't, draft a white card.
 
-Permanence Mastery: Choose a permanent type. You may include cards of that
-type in your deck. You may take this trait any number of times. (The permanent
-types are artifact, creature, enchantment, land, and planeswalker.)
+Improved Cleverness: Add 1 to your Cleverness. If your Hand is less than 6,
+you may increase it by 1. If you don't, draft a blue card.
 
-Creature Mastery: Choose a creature class. You may include creature types from that class in your deck. You may take this trait any number of times.
+Improved Willpower: Add 1 to your Willpower. If your Deck is more than 25,
+you may decrease it by 5. If you don't, draft a black card.
 
-Fortitude: Add 5 life to your starting life total. You may take this trait up
-to 7 times
+Spell Focus (card): Choose a card in your card pool. You may include one
+additional copy of that card in your deck. If a card with the same name is in
+the cube, you may draft it. For any given card, you may take this skill up to
+2 times.
 
-Num starting traits: 10
-Max traits: 30 + num creature classes
+Spell Mastery: Draft and instant or sorcery card. You gain Mastery for
+instants and sorceries. (You can include instants and sorceries in your deck
+if they share a color with your color profile.)
+
+Permanence Mastery (type): Choose a permanent type and draft a card of that
+type. (The permanent types are artifact, creature, enchantment, land, and
+planeswalker.)
+
+You gain affinity for that card type. (You can include cards of the chosen
+type in your deck if they share a color with your color profile.)
+
+You may take this skill any number of times.
+
+Num starting skills: 10
+Max skills: 30 + num creature classes
 
 === Cube ===
 Needs a main section with mediocre-to-playable commons/uncommons, plus a
 sideboard of splashy uncommons/rares/mythics that occasionally get added to
-the pool.
+the pool. Aim for 360+ cards.
 
