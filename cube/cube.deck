@@ -6,7 +6,7 @@
 
 * [[Containment Priest]]
 * [[Imposing Sovereign]]
-* [[Master of Pearls]] >> [[Leonin Arbiter]]
+* [[Grand Abolisher]] >> [[Leonin Arbiter]]
 * [[Oreskos Explorer]]
 * [[Soulfire Grand Master]]
 * [[Stoneforge Mystic]]
@@ -18,7 +18,6 @@
 * [[Devout Lightcaster]] >> [[Aven Mindcensor]]
 * [[Flickerwisp]]
 * [[Gideon's Avenger]]
-* [[Haunted Angel]]
 * [[Hushwing Gryff]]
 * [[Pulsemage Advocate]]
 * [[Eidolon of Rhetoric]]
@@ -36,11 +35,12 @@
 
 * [[Path to Exile]]
 * [[Swords to Plowshares]]
+* [[Enlightened Tutor]]
 * [[Debt of Loyalty]]
 * [[Benevolent Offering]]
 
 * [[Alliance of Arms]]
-* [[Balance]]
+* [[Haunted Angel]] >> [[Martial Coup]]
 * [[Council's Judgment]]
 * [[Timely Reinforcements]]
 * [[Day of Judgment]]
@@ -155,6 +155,7 @@
 * [[Sudden Spoiling]]
 
 * [[Exhume]]
+* [[Demonic Tutor]]
 * [[Buried Alive]]
 * [[Dark Deal]]
 * [[Diabolic Tutor]]
@@ -170,10 +171,9 @@
 
 * [[Animate Dead]]
 * [[Curse of Shallow Graves]]
-* [[Seal of Doom]] >> [[Phyrexian Arena]]
+* [[Painful Truths]] >> [[Phyrexian Arena]]
 * [[Vow of Malice]]
 * [[Leyline of the Void]]
-* [[Necrotic Plague]]
 * [[No Mercy]]
 * [[Pestilence]]
 * [[Dictate of Erebos]]
@@ -189,7 +189,7 @@
 
 * [[Dualcaster Mage]]
 * [[Guttersnipe]]
-* [[Cunning Sparkmage]] >> [[Magus of the Wheel]]
+* [[Magus of the Wheel]]
 * [[Taurean Mauler]]
 * [[Viashino Heretic]]
 * [[Zo-Zu the Punisher]]
@@ -208,7 +208,7 @@
 * [[Greater Gargadon]]
 
 * [[Koth of the Hammer]]
-* [[Lightning Bolt]] >> [[Brand]]
+* [[Brand]]
 * [[Wild Ricochet]]
 * [[Volcanic Offering]]
 * [[Comet Storm]]
@@ -217,10 +217,10 @@
 * [[Molten Psyche]]
 * [[Fiery Confluence]]
 * [[Mana Geyser]]
-* [[Expedite]] >> [[Reforge the Soul]]
+* [[Lightning Bolt]] >> [[Reforge the Soul]]
 * [[Death by Dragons]]
 * [[Earthquake]]
-* [[Curse of Bloodletting]] >> [[Tempt with Vengeance]]
+* [[Tempt with Vengeance]]
 * [[Wildfire]]
 * [[Blasphemous Act]]
 
@@ -232,7 +232,7 @@
 * [[Sulfuric Vortex]]
 * [[Vow of Lightning]]
 * [[Furnace of Rath]]
-* [[Goblinslide]] >> [[Sneak Attack]]
+* [[Sneak Attack]]
 * [[Splinter Twin]]
 
 
@@ -247,13 +247,13 @@
 
 * [[Dosan the Falling Leaf]]
 * [[Eternal Witness]]
-* [[Harvest Wurm]] >> [[Heartwood Storyteller]]
+* [[Nissa's Chosen]] >> [[Heartwood Storyteller]]
 * [[Managorger Hydra]]
 * [[Nullmage Advocate]]
 * [[Reclamation Sage]]
 * [[Skullwinder]]
 * [[Spawnwrithe]]
-* [[Nissa's Chosen]] >> [[Courser of Kruphix]]
+* [[Harvest Wurm]] >> [[Courser of Kruphix]]
 
 * [[Brooding Saurian]]
 * [[Forgotten Ancient]]
@@ -272,7 +272,7 @@
 * [[Woodfall Primus]]
 
 * [[Fog]]
-* [[Back to Nature]]
+* [[Nature's Claim]]
 * [[Lignify]] >> [[Beast Within]]
 * [[Collective Voyage]]
 * [[Cultivate]]
@@ -312,7 +312,7 @@
 * [[Trygon Predator]]
 * [[Prophet of Kruphix]]
 * [[Jhoira of the Ghitu]]
-* [[Brutal Expulsion]] >> [[Ral Zarek]]
+* [[Saheeli Rai]] >> [[Dack Fayden]]
 * [[Chained to the Rocks]] >> [[Boros Reckoner]]
 * [[Assemble the Legion]]
 * [[Tamanoa]]
@@ -326,8 +326,9 @@
 
 === Colorless ===
 * [[Everflowing Chalice]] >> [[Lotus Petal]]
-* [[Avarice Totem]]
 * [[Basilisk Collar]]
+* [[Brittle Effigy]]
+* [[Codex Shredder]]
 * [[Elixir of Immortality]]
 * [[Expedition Map]]
 * [[Skullclamp]]
@@ -338,15 +339,14 @@
 * [[Boros Signet]]
 * [[Dimir Signet]]
 * [[Fellwar Stone]]
-* [[Golgari Signet]]
-* [[Gruul Signet]]
+* [[Genesis Chamber]]
 * [[Howling Mine]]
 * [[Izzet Signet]]
+* [[Mask of Memory]]
+* [[Mind Stone]]
 * [[Swiftfoot Boots]] >> [[Lightning Greaves]]
 * [[Orzhov Signet]]
 * [[Rakdos Signet]]
-* [[Selesnya Signet]]
-* [[Simic Signet]]
 
 * [[Chromatic Lantern]]
 * [[Crystal Ball]]
@@ -369,14 +369,14 @@
 * [[Caged Sun]]
 
 * [[Lore Seeker]]
-* [[Burnished Hart]] >> [[Solemn Simulacrum]]
+* [[Filigree Familiar]] >> [[Solemn Simulacrum]]
 * [[Akroan Horse]]
 * [[Summoner's Egg]]
 * [[Clone Shell]]
 * [[Psychosis Crawler]]
 * [[Stuffy Doll]]
 * [[Steel Hellkite]]
-* [[Thopter Assembly]] >> [[Wurmcoil Engine]]
+* [[Lodestone Golem]] >> [[Wurmcoil Engine]]
 * [[Myr Battlesphere]]
 * [[Platinum Angel]]
 * [[Platinum Emperion]]
@@ -399,7 +399,7 @@
 * [[Mountain Valley]]
 * [[Crypt of Agadeem]] >> [[Nykthos, Shrine to Nyx]]
 * [[Kessig Wolf Run]] >> [[Nykthos, Shrine to Nyx]]
-* [[Forgotten Cave]] >> [[Nykthos, Shrine to Nyx]]
+* [[Nykthos, Shrine to Nyx]]
 * [[Overgrown Tomb]]
 * [[Polluted Delta]]
 * [[Rocky Tar Pit]]
@@ -417,75 +417,66 @@
 === Lore Seeker Packs ===
 
 ; Power
-Black Lotus (Proxied, Lotus Bloom)
-Mox Pearl (Proxied, Marble Diamond)
-Mox Sapphire (Proxied, Sky Diamond)
-Mox Jet (Proxied, Charcoal Diamond)
-Mox Ruby (Proxied, Fire Diamond)
-Mox Emerald (Proxied, Moss Diamond)
-Sol Ring
-Enlightened Tutor
-Ancestral Recall (Proxied, Jace's Ingenuity)
-Time Walk (Proxied, Savor the Moment)
-Necropotence
-Demonic Tutor
-Wheel of Fortune
-Eureka (Proxied, Hypergenesis)
-Channel
-
-Alternately, instead of Ancestral Recall and Timewalk:
-Plea for Power (Altered with cost 1U)
-Library of Alexandria (Proxied, Sea Gate Wreckage)
+* Black Lotus (Proxied, Lotus Bloom)
+* Mox Pearl (Proxied, Marble Diamond)
+* Mox Sapphire (Proxied, Sky Diamond)
+* Mox Jet (Proxied, Charcoal Diamond)
+* Mox Ruby (Proxied, Fire Diamond)
+* Mox Emerald (Proxied, Moss Diamond)
+* Sol Ring
++ Library of Alexandria (Proxied, Sea Gate Wreckage + Mage-Ring Responder)
+* Ancestral Recall (Proxied, Jace's Ingenuity)
+* Time Walk (Proxied, Savor the Moment)
+* Wheel of Fortune
++ Balance
+* Necropotence
+* Channel
++ Mana Vault
 
 ; Silver
-Jack-in-the-Mox
-Ashnod's Coupon
-Giant Fan
-Time Machine
-Who / What / When / Where / Why
-Ass Whuppin'
-City of Ass
-Frankie Peanuts
-Greater Morphling
-Cheatyface
-Magical Hacker
-Duh
-Rocket-Powered Turbo Slug
-Yet Another Aether Vortex
-Form of the Squirrel
+* [[Jack-in-the-Mox]]
+* [[Ashnod's Coupon]]
+* [[Giant Fan]]
+* [[Time Machine]]
+* [[Who / What / When / Where / Why]]
+* [[Ass Whuppin']]
+* [[City of Ass]]
+* [[Frankie Peanuts]]
+* [[Greater Morphling]]
+* [[Cheatyface]]
+* [[Magical Hacker]]
+* [[Duh]]
+* [[Rocket-Powered Turbo Slug]]
+* [[Yet Another Aether Vortex]]
+* [[Form of the Squirrel]]
 
 ; Conspiracy
-Worldknit
-Worldknit
-Backup Plan
-Power Play
-Advantageous Proclamation
-Secrets of Paradise
-Unexpected Results
-Brago's Favor
-Paliano, the High City
-Dack's Duplicate
-Magister of Worth
-Cogwork Librarian
-Canal Dredger
-Aether Searcher
-Deal Broker
+- [[Custodi Soulcaller]]
+- [[Arcane Savant]]
+* [[Leovold's Operative]]
+- [[Smuggler Captain]]
+- [[Volatile Chimera]]
+* [[Power Play]]
+* [[Advantageous Proclamation]]
+* [[Unexpected Potential]]
+* [[Brago's Favor]]
+* [[Iterative Analysis]]
+* [[Paliano, the High City]]
+* [[Cogwork Librarian]]
+* [[Canal Dredger]]
+* [[Deal Broker]]
+- [[Hold the Perimeter]]
+- [[Hymn of the Wilds]]
 
 === Maybeboard ===
 
-Stitch Together
-Nature's Claim
-Codex Shredder
-Painful Truths
-Genesis Chamber
-Mask of Memory
-Brittle Effigy
-Mind Stone
+Altered Ego
+Dack's Duplicate
+Evil Twin
+Starstorm
+Harmless Offering
+Back to Nature
 Viscera Seer
 Cadaver Imp
-Lodestone Golem
-Starstorm
-Altered Ego
-Harmless Offering
-Skullwinder
+Stitch Together
 
