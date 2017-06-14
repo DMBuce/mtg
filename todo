@@ -14,7 +14,7 @@
 * orzhov:   karlov life swap
 * izzet:    arjun wizard draw-burn
 * golgari:  glissa artifact stax >> tasigur self mill
-? boros:    aurelia extra combat >> avacyn wildfire/phoenix/reckoner
+? boros:    aurelia extra combat >> avacyn wildfire stax
 - simic:    kruphix draw mill >> vorel artifact counters
 
 - esper:    zur astral slide
@@ -23,7 +23,7 @@
 ? naya:     gahiji political warmonger >> swap with marchesa?
 * bant:     dr roon theme flicker
 
-* mardu:    tariel grave robber >> marchesa judo control
+* mardu:    tariel grave robber >> marchesa judo hatebears
 * temur:    intet dragon storm spellslinger
 * abzan:    karador token splitters
 * jeskai:   shu color matters
@@ -79,11 +79,11 @@ braids
 * capsize
 * reality shift
 * winds of rebuke
+korlash
+* mirrorpool
+* soul separator
 gahiji
 * invasion plans
-mishra/breya
-* scrap trawler
-* underhanded designs
 zur
 * fetid pools
 * irrigated farmland
@@ -92,6 +92,7 @@ zur
 tariel
 * dark supplicant? other clerics?
 adun
+* ulvenwald hydra
 * oracle of mul daya
 aurelia
 * sword of fire and ice
@@ -112,7 +113,6 @@ cube/battlebox
 * ral zarek
 * phyrexian arena
 * glen elendra archmage
-+ aven mindcensor
 * heartwood storyteller
 * sower of temptation
 * massacre wurm
