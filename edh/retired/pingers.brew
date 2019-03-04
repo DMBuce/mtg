@@ -1,0 +1,73 @@
+https://www.reddit.com/r/EDH/comments/6pinoa/help_with_simic_timspinger_tribal/
+
+; Commander
+ci=ug is:commander
+
+; Funstuff
+Rite of Passage
+
+; Pingers
+Prodigal Sorcerer
+Hermetic Study
+Psionic Gift
+Rootwater Hunter
+Thornwind Faeries
+Suq'Ata Firewalker
+Viridian Longbow
+Zuran Spellcaster
+Mawcor
+Fledgling Mawcor
+Pirate Ship
+Stinging Barrier
+
+; Deathtouch
+Basilisk Collar
+Gorgon's Head
+Gorgon Flail
+Nightshade Peddler
+
+; Enrage
+ci:ug o:/whenever.*damage,/
+
+; Tap/Untap
+Vigean Graftmage
+Kiora's Follower
+
+; Protection
+Plaxcaster Frogling
+Statecraft
+
+; Tokens
+Spiny Starfish
+Chasm Skulker
+Hornet Nest
+Day of the Dragons
+
+; Transmutation
+Turn to Frog
+Polymorphist's Jest
+Omnibian
+Ovinize
+Gift of Tusks
+Snakeform
+
+; Removal
+Rapid Hybridization
+Swan Song
+Reality Shift
+Beast Within
+Terastodon
+Curse of the Swine
+Pongify
+Lignify
+Lullmage Mentor
+Mystic Genesis
+Spell Swindle
+
+; Draw
+Sage of Fables
+Shapers of Nature
+Tandem Lookout
+Curiosity
+Snake Umbra
+
