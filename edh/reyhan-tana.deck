@@ -4,76 +4,80 @@
 * [[Tana, the Bloodsower]]
 
 ; Fun Stuff
-* [[Spearbreaker Behemoth]]
 * [[Divergent Transformation]]
-* [[Stalking Vengeance]]
-* [[Swiftfoot Boots]]
 * [[Bloodbraid Elf]]
-* [[Dark Privilege]]
-* [[Gratuitous Violence]]
-* [[Haunted Cloak]]
 
-; Counters
-* [[Oran-Rief Hydra]]
+; Protection
+* [[Swiftfoot Boots]]
+* [[Spearbreaker Behemoth]]
+
+; Fling
+* [[Fling]]
+* [[Heart-Piercer Manticore]]
+* [[Burning Anger]]
+* [[Gravitic Punch]]
+* [[Flesh // Blood]]
+* [[Hateflayer]]
+* [[Bloodshot Cyclops]]
+* [[Jarad, Golgari Lich Lord]]
+
+; Fatties
+* [[Mossbridge Troll]]
+* [[Grunn, the Lonely King]]
+* [[Kresh the Bloodbraided]]
 * [[Heroes' Bane]]
 * [[Kalonian Hydra]]
-* [[Tuskguard Captain]]
-* [[Champion of Lambholt]]
-* [[Forgotten Ancient]]
-* [[Hardened Scales]]
-* [[Domesticated Hydra]]
-* [[Solidarity of Heroes]]
-* [[Hamletback Goliath]]
-* [[Corpsejack Menace]]
-* [[Managorger Hydra]]
-* [[Evolutionary Escalation]]
-* [[Wild Beastmaster]]
 * [[Mycoloth]]
-* [[Naya Soulbeast]]
+* [[Managorger Hydra]]
+* [[Forgotten Ancient]]
+* [[Champion of Lambholt]]
 
-; Tokens
-* [[Necrogenesis]]
-* [[Renegade's Getaway]]
+; Synergy
+* [[Insult // Injury]]
 * [[Korozda Guildmage]]
-* [[Beastmaster Ascension]]
+* [[Wild Beastmaster]]
+* [[Blade of the Bloodchief]]
+* [[Hardened Scales]]
+* [[Corpsejack Menace]]
+* [[Solidarity of Heroes]]
+* [[Scrounging Bandar]]
+* [[Ring of Kalonia]]
 
 ; Removal
-* [[Silence the Believers]]
-* [[Vandalblast]]
-* [[Profane Command]]
-* [[Parting Thoughts]]
-* [[Festercreep]]
-* [[Terminate]]
 * [[Blasphemous Act]]
-* [[Nissa's Judgment]]
-* [[Scavenging Ooze]]
+* [[Profane Command]]
+* [[Putrefy]]
+* [[Terminate]]
 * [[Rakdos Charm]]
+* [[Nature's Claim]]
+* [[Shattering Spree]]
+* [[Scavenging Ooze]]
 
 ; Recursion
-* [[Beacon of Unrest]]
+* [[Gleancrawler]]
 * [[Treasured Find]]
 * [[Seeds of Renewal]]
-* [[Grave Upheaval]]
-* [[Squee, Goblin Nabob]]
 
 ; Draw
+* [[Parting Thoughts]]
+* [[Tormenting Voice]]
 * [[Shamanic Revelation]]
 * [[Wheel of Fate]]
 * [[Skullclamp]]
 * [[Viscera Seer]]
-* [[Altar's Reap]]
 * [[Inspiring Call]]
 
 ; Mana
-* [[Golgari Signet]]
-* [[Realm Seekers]]
 * [[Wood Elves]]
-* [[Sakura-Tribe Elder]]
-* [[Commander's Sphere]]
-* [[Harrow]]
-* [[Sylvan Ranger]]
+* [[Explosive Vegetation]]
+* [[Golgari Signet]]
 * [[Cultivate]]
 * [[Kodama's Reach]]
+* [[Realm Seekers]]
+* [[Explore]]
+* [[Commander's Sphere]]
+* [[Sakura-Tribe Elder]]
+* [[Harrow]]
 
 ; Land
 * [[Wooded Foothills]]
@@ -88,9 +92,13 @@
 * [[Rakdos Carnarium]]
 * [[Savage Lands]]
 * [[Dragonskull Summit]]
-* [[Blackcleave Cliffs]]
+* [[Exotic Orchard]]
 * [[Rootbound Crag]]
 * 20x [[Forest]]
 * 3x [[Mountain]]
 * 3x [[Swamp]]
+
+; Maybeboard
+https://scryfall.com/search?q=o%3Aindestructible+ci%3Argb&order=edhrec&as=grid&unique=cards
+ci:grb ( o:double or o:"where x" ) o:power
 
