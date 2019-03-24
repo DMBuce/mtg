@@ -3,146 +3,102 @@
 * blue:      braids kraken cheaty fatties
 * black:     korlash suicide manatron
 * red:       ib goblin token explosion
-* green:     yeva bounce recursion
+* green:     yeva flicker reanimator
 
 * azorius:   kangee bird flying matters
-? dimir:     sygg weenie tempo >> ninjas? rat doomsday?
+? dimir:     sygg weenie tempo >> ninjas? rat doomsday? skeleton ship -1/-1?
 * rakdos:    rakdos aggro fatties (full arts)
-? gruul:     ruric elf ball punishment >> wort storm? mina+denn scapeshift?
-? selesnya:  sigarda enchantress voltron
+? gruul:     ruric elf land denial >> wort storm? mina+denn scapeshift?
+? selesnya:  sigarda enchantress voltron >> keyword woup tribal
 
 * orzhov:    ayli life swap
 * izzet:     arjun wizard draw-burn (full arts)
-? golgari:   tasigur self mill (partial full arts, needs forests)
-? boros:     alesha graveyard weenies (full arts) >> enchantress? munda allies?
-* simic:     rashmi transmutation mill
+* golgari:   tasigur self mill (partial full arts, needs forests)
+? boros:     alesha graveyard weenies (full arts) >> munda ally flicker / equip
+* simic:     rashmi owling mines
 
 * esper:     zur astral slide (partial full arts, needs plains)
-? grixis:    jeleva card theft (partial full arts)
+* grixis:    jeleva card theft (partial full arts)
 * jund:      reyhan+tana power fling
-? naya:      tamanoa wild fire
-* bant:      dr roon theme flicker (full-arts)
+* naya:      tamanoa wild fire
+* bant:      dr roon judoon timelord (full-arts)
 
-? mardu:     marchesa judo control
+* mardu:     marchesa judo control
 * temur:     intet dragon storm spellslinger (full arts)
 * abzan:     karador token splitters (full arts)
-* jeskai:    shu color matters
+? jeskai:    shu color matters >> creatureless proteus staff enchantress stax
 * sultai:    mimeoplasm ooze activated abilities
 
 * wubr:      silas+akiri artifact shenanigans
 * ubrg:      yidris land shenanigans (full arts)
-* brgw:      ??? token donations >> -1/-1 counters
+* brgw:      kondo+smasher token gifts
 * rgwu:      tazri spell radiation
 * gwub:      kydele+ravos skip turns
 
-* rainbow:   horde shapeshifter changeling lords
+* rainbow:   horde changeling lords
 * fivecolor: ramos multicolor matters
 * goat:      o-kagachi donate shenanigans
 * brown:     karn equipment voltron
 
-rg   scapeshift
-gw   
-rw   enchantress
-rgb  fling
-rwg  wildfire
-rwb  political warmonger
-rwgb token gifts
-
-storm
-scapeshift
-enchantress
-!fling
-!wildfire
-!token gifts
-weenies
-!political warmonger
-
 unbuilt themes
 * enchantress
-* hatebears
 * donate shenanigans
+* stax
+* combat control
+* doomsday / proteus staff combo
+* -1/-1 counters
+* keyword soup tribal
+* weenies
 
-ug themes
-* frog tribal
-* clone tribal
-* life gain?
-* transmutation tribal
-* pingers
-
-pricecheck after standard
-* fastlands
-* panharmonicon
-* chandra, torch of defiance
-* 2x combustible gearhulk
-* fatal push
-* rekindling phoenix
-
-== buylist ==
+== wishlist ==
 https://tappedout.net/mtg-decks/flashbirds/
-https://tappedout.net/mtg-decks/splinter-tin/
-https://www.reddit.com/r/budgetdecks/comments/2r5mr6/seven_of_my_favorite_50_casual_modern_decks/
+electrobalance:      https://www.mtggoldfish.com/articles/much-abrew-electro-balance-modern-magic-online
 mono red living end: https://www.mtggoldfish.com/deck/1309412#paper
 turn two tokens:     https://www.mtggoldfish.com/deck/504144#paper
 mono green aggro:    https://www.mtggoldfish.com/deck/286207#paper
 evoke control:       https://www.mtggoldfish.com/deck/319328#paper
 mono white lifegain: https://www.mtggoldfish.com/deck/1098949#paper
 heartless summoning: http://tappedout.net/mtg-decks/30-heartless-summoning/
-* also add abyssal persecutor, cast down, `mtg cmc=2 o:transmute`
+RB living end:       https://www.mtggoldfish.com/deck/1653437#paper
 pieces
-* nonblue warmonger token gifts
-* wort storm or mina+denn scapeshift
-* munda allies
-* rw enchantress?
+* battlebox - bcw inner sleeves (regular) 100 ct
+* esper sleeves - gray
+* green stompy - blossoming defense
+* rb living end
 * naya walls
 * ub ninjas or rat doomsday
-cube
-* growing rites of itlimoc
+bruse+akiri
+* curse of opulence
+rb living end
+* 3 Archfiend of Ifnir
+* 4 Horror of the Broken Lands
+* 4 Monstrous Carabid
+* 4 Street Wraith
+* 2 Cathartic Reunion
+* 2 Collective Brutality
+* 2 Mausoleum Secrets
+* 4 Lightning Bolt
+* 4 Foreboding Ruins
 goodstuff
-* najeela
-* ramos
+* fatal push
 * path of ancestry
 * e:bbd t:land r:rare
 budget lands
+* fastlands
 * painlands
 * checklands
 * temples/scrylands
 * khans/alara trilands
+reyhan+tana
+* amplifire
 izzet blitz
 * borrowed hostility
 * brute force
 * titan's strength
-marchesa
-* mirage mirror
-* backlash
-* batwing brume
-* blind obedience
-* kambal, consul of allocation
-* price of progress
-? virtus the veiled
-* suspicious bookcase
-* hide // seek
-* lapse of certainty
-* mana tithe
-* solemnity
-* swords to plowshares
-* utter end
-* animate dead
-* stolen strategy
-* boros signet
-* curse of opulence
-reyhan+tana
-* ci:gbr o:double -o:"double strike"
-gahiji
-* treasure nabber
 kangee
 * kindred discovery (replace crookclaw elder)
-jeleva
-* blue theft cards
-braids
-* capsize
-karn
-* hammer of nazahn
-* ugin, the spirit dragon
+* sage owl
+* owl familiar
 cube/battlebox
 * missing stuff from list
 * sculpting steel
