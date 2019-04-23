@@ -1,0 +1,134 @@
+http://tappedout.net/mtg-decks/weenie-keyword-control/
+
+french vanilla creatures:
+ci:gw o:", " t:creature -is:vanilla -o:during -o:would -o:when -o:while -o:prevent -o:counter -o:":" -o:"as long as" -o:"at the" -o:"at end of" -o:"as ~" -o:"you control" -o:"can't" -o:"if you" -o:"when you" -o:"equal to" -o:"you may" -o:"to cast" -o:"that much" -o:"that player" -o:"the battlefield" -o:"able to" -o:/[+-]\d\/[+-]\d/ -o:"any player" -o:"you cast" -o:"an opponent" -o:"can block" -o:"any number" -o:"must be"
+
+odric, myriarch, concerted effort keywords:
+o:"flying, " or o:"first strike, " or o:"double strike, " or o:"deathtouch, " or o:"haste, " or o:"hexproof, " or o:"indestructible, " or o:"lifelink, " or o:"menace, " or o:"reach, " or o:"trample, " or o:"vigilance, " or o:"skulk, " or o:"fear, " or o:"landwalk, " or o:"protection
+
+creature tokens > 4/4:
+ci:gw ( o:/[4-9]\/[4-9].*token/ or o:/\d\d?\/\d\d.*token/ or o:/\d\d\/\d\d?.*token/ or (o:token o:copy) )
+
+; Commander
+* [[Captain Sisay]]
+
+; Lieutenants
+* [[Odric, Lunarch Marshal]]
+* [[Vivien, Champion of the Wilds]]
+* [[Majestic Myriarch]]
+* [[Concerted Effort]]
+* [[Death-Mask Duplicant]]
+* [[Angelic Skirmisher]]
+* [[Akroma's Memorial]]
+
+; Protection
+* [[Shalai, Voice of Plenty]]
+* [[Sigarda, Host of Herons]]
+* [[Saffi Eriksdotter]]
+* [[Yavimaya Hollow]]
+* [[Hammer of Nazahn]]
+* [[Pull from Eternity]]
+* [[Riftsweeper]]
+
+; Sac Outlets
+* [[Claws of Gix]]
+* [[Miren, the Moaning Well]]
+
+; Tutors
+* [[Karametra, God of Harvests]]
+* [[Nazahn, Revered Bladesmith]]
+* [[Inventors' Fair]]
+
+; Recursion
+* [[Hua Tuo, Honored Physician]]
+* [[Bow of Nylea]]
+* [[Mistveil Plains]]
+
+---
+
+; Tempboard
+
+; Funstuff
+* [[Bruna, the Fading Light]]
+* [[Gisela, the Broken Blade]]
+
+; Hatebears
+* [[Sigarda, Host of Herons]]
+* [[Dragonlord Dromoka]]
+* [[Archon of Valor's Reach]]
+* [[Archetype of Endurance]]
+* [[Thalia, Heretic Cathar]]
+* [[Runic Armasaur]]
+* [[Hushwing Gryff]]
+* [[Tocatli Honor Guard]]
+* [[Torpor Orb]]
+
+; Good Keyword Cards
+* [[Swiftfoot Boots]]
+* [[Acidic Slime]]
+* [[Wurmcoil Engine]]
+* [[Sword of Vengeance]]
+* [[Felidar Sovereign]]
+* [[Darksteel Mutation]]
+* [[Angel of Invention]]
+* [[Carnage Tyrant]]
+* [[Darksteel Colossus]]
+
+; French Vanilla
+* [[Baneslayer Angel]]
+* [[Zetalpa, Primal Dawn]]
+* [[Mirran Crusader]]
+* [[Akroma, Angel of Wrath]]
+* [[Aerial Responder]]
+* [[Herald of the Host]]
+* [[Transcendent Master]]
+* [[Vorapede]]
+* [[Serra Angel]]
+* [[Oversoul of Dusk]]
+* [[Mirri, Cat Warrior]]
+* [[Konda, Lord of Eiganjo]]
+* [[Pale Recluse]]
+* [[Mistmeadow Skulk]]
+* [[Uktabi Drake]]
+* [[Ambush Viper]]
+
+; Underused / Weird Keywords
+* [[Karmic Guide]]
+* [[Mother of Runes]]
+* [[Unquestioned Authority]]
+* [[Trailblazer's Boots]]
+* [[Emrakul, the Promised End]]
+* [[Skeleton Key]]
+* [[Soldier of the Pantheon]]
+* [[Pristine Angel]]
+* [[Magnigoth Treefolk]]
+* [[Riders of Gavony]]
+* [[Dust Elemental]]
+* [[Devoted Caretaker]]
+* [[Meandering Towershell]]
+* [[Dryad Sophisticate]]
+
+; Negative ETBs
+* [[Dust Elemental]]
+* [[Eater of Days]]
+* [[Wren's Run Packmaster]]
+
+; Cuttingboard
+
+; Protection
+* [[Avacyn, Angel of Hope]]
+* [[Sigarda, Heron's Grace]]
+* [[Shield of Kaldra]]
+
+; Protection
+* [[Flagstones of Trokair]]
+* [[Rath's Edge]]
+* [[Mistveil Plains]]
+* [[Ghost Quarter]]
+* [[Strip Mine]]
+* [[Wasteland]]
+* [[Tectonic Edge]]
+
+; Tutor Targets
+* [[Yisan, the Wanderer Bard]]
+

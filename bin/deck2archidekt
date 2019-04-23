@@ -1,0 +1,56 @@
+#!/bin/bash
+#
+# converts this:
+#
+#   ; General
+#   * [[Omnath, Locus of Mana]]
+#
+#   ; Land
+#   * 99x [[Forest]]
+#
+# to this:
+#
+#   Omnath, Locus of Mana #General
+#   99x Forest #Land
+#
+
+decklist="$1"
+outfile="$2"
+tempfile="$(mktemp "$outfile.XXXXXXXXXX")"
+trap 'rm -f "$tempfile"' EXIT
+prog="${0##*/}"
+
+if [[ -z "$decklist" ]]; then
+	echo "Usage: $prog <file>"
+	exit 1
+fi
+
+deck2ascii() {
+	local decklist="$1"
+	grep -e '\[\[.*\]\]' -e '^;' "$decklist" | awk '
+		BEGIN {
+			category = "Uncategorized"
+		}
+		/board$/ || /[Cc]uts?$/ { exit }
+		/^; / {
+			sub("; ", "")
+			gsub(" ", "")
+			category = $0
+			next
+		}
+		/^[+!-*] / { sub(/^[+!-*] /, "") }
+		/\[\[/     { sub(/\[\[/, "") }
+		/\]\]/     { sub(/\]\].*/, "") }
+		!/^; /     { print $0, "`" category "`" }
+	'
+}
+
+if [[ -n "$outfile" ]]; then
+	deck2ascii "$decklist" > "$tempfile"
+	if [[ ! -f "$outfile" ]] || diff -q "$tempfile" "$outfile" &>/dev/null; then
+		mv "$tempfile" "$outfile"
+	fi
+else
+	deck2ascii "$decklist"
+fi
+
